@@ -1,5 +1,5 @@
 import unittest
-from my_array import MyArray
+from src.my_array import MyArray
 
 class TestMyArray(unittest.TestCase):
 

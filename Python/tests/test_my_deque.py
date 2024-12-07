@@ -1,5 +1,5 @@
 import unittest
-from my_deque import MyDeque
+from src.my_deque import MyDeque
 
 class TestMyDeque(unittest.TestCase):
 

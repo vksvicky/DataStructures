@@ -1,6 +1,6 @@
 from behave import given, when, then
-from my_queue import MyQueue
-from my_linked_list import MyLinkedList
+from src.my_queue import MyQueue
+from src.my_linked_list import MyLinkedList
 
 @given('I have an empty MyQueue with capacity {capacity:d}')
 def step_impl(context, capacity):
