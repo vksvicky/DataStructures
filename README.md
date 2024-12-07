@@ -4,6 +4,33 @@ This document lists various **data structures** used in computer science, catego
 
 ---
 
+| **Data Structure**         | **Description**                                                                 |
+|----------------------------|---------------------------------------------------------------------------------|
+| [&check;] **Array**                  | A collection of elements identified by index or key, typically of the same type. |
+| [&check;] **Stack**                  | A collection that follows the Last In First Out (LIFO) principle.               |
+| [&check;] **Queue**                  | A collection that follows the First In First Out (FIFO) principle.              |
+| [&check;] **Linked List**            | A linear collection of elements where each element points to the next.         |
+| [&check;] **Deque**                  | A double-ended queue where elements can be added or removed from both ends.     |
+| [ ] **Hash Map**               | A collection of key-value pairs where each key is unique and maps to a value.   |
+| [ ] **Set**                    | A collection of unique elements with no duplicates.                             |
+| [ ] **Priority Queue**         | A queue where each element has a priority, and elements are dequeued in priority order. |
+| [ ] **Heap**                   | A binary tree-based data structure where the parent node is ordered with respect to its children (min or max heap). |
+| [ ] **Trie**                   | A tree-like data structure used to store strings, with nodes representing characters. |
+| [ ] **Graph**                  | A collection of nodes (vertices) and edges (connections between nodes).        |
+| [ ] **Tree**                   | A hierarchical structure with nodes connected by edges, with a single root.    |
+| [ ] **Disjoint Set (Union-Find)** | A data structure to manage a partition of a set into disjoint subsets.         |
+| [ ] **Bloom Filter**           | A space-efficient probabilistic data structure used to test whether an element is a member of a set. |
+| [ ] **Hash Table**             | A data structure that implements an associative array, where each key maps to a value using a hash function. |
+| [ ] **Circular Buffer**        | A fixed-size buffer that wraps around when it reaches the end, useful for queue-like problems. |
+| [ ] **Bitset**                 | A data structure that compactly stores a sequence of bits, often used for set operations. |
+| [ ] **Skip List**              | A probabilistic data structure for fast search, insertion, and deletion.       |
+| [ ] **B-tree**                 | A self-balancing tree data structure that maintains sorted data and allows searches, insertions, and deletions in logarithmic time. |
+| [ ] **Interval Tree**          | A tree data structure used to store intervals, supporting fast searching for overlapping intervals. |
+| [ ] **Segment Tree**           | A tree data structure for storing intervals or segments, supporting efficient range queries and updates. |
+| [ ] **Fenwick Tree (Binary Indexed Tree)** | A data structure that provides efficient methods for prefix sum queries and updates. |
+
+---
+
 ## 1. Linear Data Structures
 
 Linear data structures organize data in a sequential manner.
