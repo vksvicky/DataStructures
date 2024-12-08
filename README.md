@@ -4,31 +4,30 @@ This document lists various **data structures** used in computer science, catego
 
 ---
 
-| **Data Structure**         | **Available in** | **Description**                                                                 |
+| **Data Structure**         | <nobr>**Available in**</nobr> | <nobr>**Description**</nobr>                                                                |
 |----------------------------|-----------------------|---------------------------------------------------------------------------------|
-|  **Array**                  | [&check;] Java [&check;] Scala [&check;] Python [&check;] C# | A collection of elements identified by index or key, typically of the same type. |
-|  **Stack**                  | [&check;] Java [&check;] Scala [&check;] Python [&cross;] C# | A collection that follows the Last In First Out (LIFO) principle.               |
-|  **Queue**               | [&check;] Java [&check;] Scala [&check;] Python [&cross;] C# | A collection that follows the First In First Out (FIFO) principle.              |
-| **Linked List**         | [&check;] Java [&check;] Scala [&check;] Python [&cross;] C# | A linear collection of elements where each element points to the next.         |
-| **Deque**               | [&check;] Java [&check;] Scala [&check;] Python [&cross;] C# | A double-ended queue where elements can be added or removed from both ends.     |
-| **Hash Map**            | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A collection of key-value pairs where each key is unique and maps to a value.   |
-| **Set**                 | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A collection of unique elements with no duplicates.                             |
-| **Priority Queue**      | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A queue where each element has a priority, and elements are dequeued in priority order. |
-| **Heap**                | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A binary tree-based data structure where the parent node is ordered with respect to its children (min or max heap). |
-| **Trie**                | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A tree-like data structure used to store strings, with nodes representing characters. |
-| **Graph**               | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A collection of nodes (vertices) and edges (connections between nodes).        |
-| **Tree**                | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A hierarchical structure with nodes connected by edges, with a single root.    |
-| **Disjoint Set (Union-Find)** | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A data structure to manage a partition of a set into disjoint subsets.         |
-| **Bloom Filter**        | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A space-efficient probabilistic data structure used to test whether an element is a member of a set. |
-| **Hash Table**          | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A data structure that implements an associative array, where each key maps to a value using a hash function. |
-| **Circular Buffer**     | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A fixed-size buffer that wraps around when it reaches the end, useful for queue-like problems. |
-| **Bitset**              | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A data structure that compactly stores a sequence of bits, often used for set operations. |
-| **Skip List**           | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A probabilistic data structure for fast search, insertion, and deletion.       |
-| **B-tree**              | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A self-balancing tree data structure that maintains sorted data and allows searches, insertions, and deletions in logarithmic time. |
-| **Interval Tree**       | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A tree data structure used to store intervals, supporting fast searching for overlapping intervals. |
-| **Segment Tree**        | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A tree data structure for storing intervals or segments, supporting efficient range queries and updates. |
-| **Fenwick Tree (Binary Indexed Tree)** | [&cross;] Java [&cross;] Scala [&cross;] Python [&cross;] C# | A data structure that provides efficient methods for prefix sum queries and updates. |
- A data structure that provides efficient methods for prefix sum queries and updates. |
+|  **Array**                  | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&check;] C# | A collection of elements identified by index or key, typically of the same type. |
+|  **Stack**                  | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A collection that follows the Last In First Out (LIFO) principle.               |
+|  **Queue**               | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A collection that follows the First In First Out (FIFO) principle.              |
+| **Linked List**         | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A linear collection of elements where each element points to the next.         |
+| **Deque**               | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A double-ended queue where elements can be added or removed from both ends.     |
+| **Hash Map**            | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of key-value pairs where each key is unique and maps to a value.   |
+| **Set**                 | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of unique elements with no duplicates.                             |
+| **Priority Queue**      | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A queue where each element has a priority, and elements are dequeued in priority order. |
+| **Heap**                | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A binary tree-based data structure where the parent node is ordered with respect to its children (min or max heap). |
+| **Trie**                | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A tree-like data structure used to store strings, with nodes representing characters. |
+| **Graph**               | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of nodes (vertices) and edges (connections between nodes).        |
+| **Tree**                | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A hierarchical structure with nodes connected by edges, with a single root.    |
+| **Disjoint Set (Union-Find)** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A data structure to manage a partition of a set into disjoint subsets.         |
+| **Bloom Filter**        | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A space-efficient probabilistic data structure used to test whether an element is a member of a set. |
+| **Hash Table**          | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A data structure that implements an associative array, where each key maps to a value using a hash function. |
+| **Circular Buffer**     | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A fixed-size buffer that wraps around when it reaches the end, useful for queue-like problems. |
+| **Bitset**              | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A data structure that compactly stores a sequence of bits, often used for set operations. |
+| **Skip List**           | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A probabilistic data structure for fast search, insertion, and deletion.       |
+| **B-tree**              | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A self-balancing tree data structure that maintains sorted data and allows searches, insertions, and deletions in logarithmic time. |
+| **Interval Tree**       | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A tree data structure used to store intervals, supporting fast searching for overlapping intervals. |
+| **Segment Tree**        | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A tree data structure for storing intervals or segments, supporting efficient range queries and updates. |
+| **Fenwick Tree (Binary Indexed Tree)** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A data structure that provides efficient methods for prefix sum queries and updates. |
 
 ---
 
