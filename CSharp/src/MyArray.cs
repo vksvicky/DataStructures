@@ -1,3 +1,5 @@
+﻿namespace CSharp;
+
 public class MyArray
 {
     private int[] _array;
@@ -50,3 +52,4 @@ public class MyArray
         return _size;
     }
 }
+

@@ -7,14 +7,14 @@ This document lists various **data structures** used in computer science, catego
 | **Data Structure** | **Available in** | **Description** |
 |:--|:--|--|
 |  **Array** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&check;] C# | A collection of elements identified by index or key, typically of the same type. |
-|  **Stack** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A collection that follows the Last In First Out (LIFO) principle. |
-|  **Queue** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A collection that follows the First In First Out (FIFO) principle. |
-| **Linked List** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A linear collection of elements where each element points to the next. |
-| **Deque** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&cross;] C# | A double-ended queue where elements can be added or removed from both ends. |
+|  **Stack** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&check;] C# | A collection that follows the Last In First Out (LIFO) principle. |
+|  **Queue** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&check;] C# | A collection that follows the First In First Out (FIFO) principle. |
+| **Linked List** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&check;] C# | A linear collection of elements where each element points to the next. |
+| **Deque** | [&check;] Java <br/>[&check;] Scala <br/>[&check;] Python <br/>[&check;] C# | A double-ended queue where elements can be added or removed from both ends. |
 | **Hash Map** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of key-value pairs where each key is unique and maps to a value. |
 | **Set** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of unique elements with no duplicates. |
-| **Priority Queue** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A queue where each element has a priority, and elements are dequeued in <br/>priority order. |
-| **Heap** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A binary tree-based data structure where the parent node is ordered with respect <br/>to its children (min or max heap). |
+| **Priority Queue** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A queue where each element has a priority, and elements are dequeued <br/>in priority order. |
+| **Heap** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A binary tree-based data structure where the parent node is ordered with <br/>respect to its children (min or max heap). |
 | **Trie** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A tree-like data structure used to store strings, with nodes representing characters. |
 | **Graph** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of nodes (vertices) and edges (connections between nodes). |
 | **Tree** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A hierarchical structure with nodes connected by edges, with a single root. |
