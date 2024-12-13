@@ -1,16 +1,19 @@
-package org.revian;
+package org.revian.stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+import org.revian.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class StepDefinitions {
 
     private MyArray myArray;
-    private MyStack myStack;
-    private MyDeque myDeque;
+//    private MyStack myStack;
+//    private MyDeque myDeque;
     private MyQueue myQueue;
 
     // Mocking objects
@@ -236,6 +239,16 @@ public class StepDefinitions {
     @Then("the value should be {int}")
     public void the_value_should_be(int expectedValue) {
         assertEquals(expectedValue, mockedLinkedList.get(1)); // Custom assertion for get method
+    }
+
+    @And("when I try to add {int} to the MyArray")
+    public void whenITryToAddToTheMyArray(int value) {
+        myArray.add(value);
+    }
+
+    @And("when I get the element at index {int}")
+    public void whenIGetTheElementAtIndex(int index) {
+        myArray.get(index);
     }
 }
 

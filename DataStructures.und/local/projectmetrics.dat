@@ -1,0 +1,22 @@
+{
+    "fileMetrics": "file,Code Lines\nPython/tests/__init__.py,0\nJava/src/test/java/org/revian/MyStackTest.java,31\nPython/src/my_queue.py,14\nPython/src/my_linked_list.py,27\nJava/src/main/java/org/revian/MyQueue.java,34\nPython/src/my_deque.py,17\nCSharp/src/MyLinkedList.cs,123\nJava/src/test/java/org/revian/StepDefinitions.java,141\nCSharp/test/MyArrayTest.cs,31\nPython/tests/test_my_deque.py,24\nJava/src/test/java/org/revian/TestRunner.java,5\nCSharp/src/MyArray.cs,44\nPython/tests/features/steps/__init__.py,0\nJava/src/main/java/org/revian/MyArray.java,24\nCSharp/test/MyLinkedListTest.cs,86\nPython/src/my_array.py,14\nCSharp/test/MyDequeTest.cs,103\nCSharp/src/MyStack.cs,41\nCSharp/test/MyQueueTest.cs,80\nCSharp/src/MyDeque.cs,62\nJava/src/test/java/org/revian/MyQueueTest.java,28\nPython/tests/features/steps/steps.py,33\nCSharp/obj/Debug/net9.0/CSharp.AssemblyInfo.cs,9\nJava/src/test/java/org/revian/MyLinkedListTest.java,29\nCSharp/src/MyQueue.cs,41\nJava/src/main/java/org/revian/MyDeque.java,29\nPython/tests/test_my_array.py,23\nCSharp/obj/Debug/net9.0/CSharp.GlobalUsings.g.cs,7\nJava/src/main/java/org/revian/MyStack.java,31\nJava/src/main/java/org/revian/MyLinkedList.java,42\nPython/src/__init__.py,5\nPython/tests/features/__init__.py,0\nPython/src/my_stack.py,11\nPython/tests/test_my_linked_list.py,21\nPython/tests/test_my_stack.py,17\nJava/src/test/java/org/revian/MyDequeTest.java,39\nPython/tests/test_my_queue.py,23\nCSharp/test/StackTest.cs,69\nJava/src/test/java/org/revian/MyArrayTest.java,36",
+    "funcTop10": "function,cyclomatic\nDatastructure.MyLinkedList<>.RemoveLast,4\nDatastructure.MyLinkedList<>.Get,3\nDatastructure.MyLinkedList<>.RemoveFirst,3\norg.revian.MyLinkedList.add,3\norg.revian.MyLinkedList.get,3\nsrc.my_linked_list.MyLinkedList.get,3\nCSharp.MyArray.Add,2\nCSharp.MyArray.Get,2\nCSharp.MyArray.Resize,2\nDatastructure.MyDeque<>.PeekFirst,2\nDatastructure.MyDeque<>.PeekLast,2\nDatastructure.MyDeque<>.RemoveFirst,2\nDatastructure.MyDeque<>.RemoveLast,2\nDatastructure.MyLinkedList<>.AddFirst,2\nDatastructure.MyLinkedList<>.AddLast,2\nDatastructure.MyLinkedList<>.Peek,2\nDatastructure.MyQueue<>.Dequeue,2\nDatastructure.MyQueue<>.Peek,2\nDatastructure.MyStack<>.Peek,2\nDatastructure.MyStack<>.Pop,2\norg.revian.MyArray.add,2\norg.revian.MyArray.get,2\norg.revian.MyDeque.removeFirst,2\norg.revian.MyDeque.removeLast,2\norg.revian.MyLinkedList.size,2\norg.revian.MyQueue.dequeue,2\norg.revian.MyQueue.enqueue,2\norg.revian.MyStack.peek,2\norg.revian.MyStack.pop,2\norg.revian.MyStack.push,2\norg.revian.StepDefinitions.i_try_to_add_to_the_my_array,2\nsrc.my_array.MyArray.add,2\nsrc.my_array.MyArray.get,2\nsrc.my_deque.MyDeque.remove_first,2\nsrc.my_deque.MyDeque.remove_last,2\nsrc.my_linked_list.MyLinkedList.size,2\nsrc.my_queue.MyQueue.dequeue,2\nsrc.my_queue.MyQueue.enqueue,2\nsrc.my_stack.MyStack.pop,2",
+    "languages": "Python,Java,C#",
+    "metricsVersion": 3,
+    "parsetime": 1733827815,
+    "summaryMetric/CountAnalysisError": 0,
+    "summaryMetric/CountAnalysisWarning": 0,
+    "summaryMetric/CountDeclClass": 35,
+    "summaryMetric/CountDeclFile": 39,
+    "summaryMetric/CountDeclFunction": 225,
+    "summaryMetric/CountLine": 1908,
+    "summaryMetric/CountLineBlank": 342,
+    "summaryMetric/CountLineCode": 1394,
+    "summaryMetric/CountLineComment": 242,
+    "summaryMetric/CountLineInactive": 0,
+    "summaryMetric/CountLinePreprocessor": 0,
+    "summaryMetric/CountStmtDecl": 440,
+    "summaryMetric/CountStmtExe": 539,
+    "summaryMetric/RatioCommentToCode": 0.17,
+    "summaryMetrics": "Name,Value\nClasses,35\nFiles,39\nFunctions,225\nLines,1908\nBlank Lines,342\nCode Lines,1394\nComment Lines,242\nInactive Lines,0\nPreprocessor Lines,0\nDeclarative Statements,440\nExecutable Statements,539\nComment to Code Ratio,0.17\n"
+}

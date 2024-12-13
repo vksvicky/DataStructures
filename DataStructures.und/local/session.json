@@ -1,0 +1,96 @@
+{
+    "Session": "default",
+    "Sessions": {
+        "default": {
+            "SessionData": {
+                "1_2056x1329": {
+                    "DockWidgets": {
+                        "FloatingWidgetOrder": [
+                        ],
+                        "OpenWindows": {
+                            "00ProjectOverviewWidget": {
+                                "height": 563,
+                                "width": 286
+                            },
+                            "01SuggestionsBrowser": {
+                                "height": 1176,
+                                "width": 250
+                            },
+                            "02EntityFilter": {
+                                "height": 589,
+                                "width": 286
+                            },
+                            "03InfoBrowserWidget_0": {
+                                "height": 586,
+                                "width": 308
+                            }
+                        },
+                        "TabGroupFrontWidgets": [
+                            "ProjectOverviewWidget"
+                        ]
+                    },
+                    "EntityFilter": {
+                        "Dock Area": 1,
+                        "Dock In Drawer Mode": false,
+                        "Dock Is Floating": false,
+                        "Dock Tab Group": [
+                            "ProjectOverviewWidget"
+                        ]
+                    },
+                    "InfoBrowserWidget_0": {
+                        "Dock Area": 1,
+                        "Dock In Drawer Mode": false,
+                        "Dock Is Floating": false,
+                        "Dock Tab Group": [
+                        ]
+                    },
+                    "ProjectOverviewWidget": {
+                        "Dock Area": 1,
+                        "Dock In Drawer Mode": false,
+                        "Dock Is Floating": false,
+                        "Dock Tab Group": [
+                            "EntityFilter"
+                        ]
+                    },
+                    "SuggestionsBrowser": {
+                        "Dock Area": 2,
+                        "Dock In Drawer Mode": false,
+                        "Dock Is Floating": false,
+                        "Dock Tab Group": [
+                        ]
+                    }
+                },
+                "EntityFilter": {
+                    "LastEntityFilterUsed": "All Entities"
+                },
+                "GraphicFilterSettings": {
+                    "Enabled": false
+                },
+                "LastAccessedPid": "14632",
+                "LastDisplayGroup": "1_2056x1329",
+                "MaintainEditorHistory": {
+                    "FileRanges": {
+                        "size": 0
+                    },
+                    "index": -1
+                },
+                "MiscSaveStates": {
+                    "entitySelected": "@lCSharp.Tests.StackTest.Peek_ShouldThrowException_WhenStackIsEmpty.(anon_method_1)@p@lCSharp.Tests.StackTest.Peek_ShouldThrowException_WhenStackIsEmpty@ksCSharp.Tests.StackTest.Peek_ShouldThrowException_WhenStackIsEmpty@f./CSharp/test/StackTest.cs",
+                    "projectOverviewCharts": "true",
+                    "projectOverviewChartsPosition": 1,
+                    "projectOverviewChartsSelected": "true",
+                    "projectOverviewChartsWorkspace": 0,
+                    "selection": "(anon_method_1)"
+                },
+                "ProjectUI": {
+                    "projectviewcuritem": "CSharp"
+                },
+                "SplittableWorkspace": {
+                    "active workspace": 0,
+                    "primary ws size": 1496,
+                    "split orientation": -1
+                }
+            }
+        }
+    }
+}
