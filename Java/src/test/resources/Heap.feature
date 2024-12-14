@@ -1,22 +1,29 @@
-Feature: MyHeap functionality
+Feature: MyHeap Operations
 
   Scenario: Insert elements into the heap
-    Given an empty MyHeap
-    When I insert 10, 5, and 20 into the heap
+    Given the heap is empty
+    When I insert 10 into the heap
+    And I insert 20 into the heap
+    And I insert 5 into the heap
     Then the minimum element should be 5
 
-  Scenario: Remove the minimum element from the heap
-    Given a MyHeap with elements 10, 5, and 20
-    When I remove the minimum element
-    Then the returned element should be 5
+  Scenario: Extract the minimum element from the heap
+    Given the heap contains 10, 20, and 5
+    When I extract the minimum element
+    Then the extracted element should be 5
     And the new minimum element should be 10
 
-  Scenario: Get the minimum element of an empty heap
-    Given an empty MyHeap
-    When I get the minimum element
-    Then an exception should be thrown with message "Heap is empty"
+  Scenario: Attempt to extract from an empty heap
+    Given the heap is empty
+    When I try to extract the minimum element
+    Then I should receive an error "Heap is empty"
 
-  Scenario: Insert a null element into the heap
-    Given an empty MyHeap
-    When I insert a null element
-    Then an exception should be thrown with message "Element cannot be null"
+  Scenario: Peek into the heap
+    Given the heap contains 10, 20, and 5
+    When I peek into the heap
+    Then the minimum element should be 5
+
+  Scenario: Heapify an unsorted array
+    Given the heap is empty
+    When I heapify the array [10, 20, 5, 30, 15]
+    Then the minimum element should be 5

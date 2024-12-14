@@ -15,8 +15,8 @@ This document lists various **data structures** used in computer science, catego
 | **Set** | [&check;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of unique elements with no duplicates. |
 | **Priority Queue** | [&check;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A queue where each element has a priority, and elements are dequeued <br/>in priority order. |
 | **Heap** | [&check;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A binary tree-based data structure where the parent node is ordered with <br/>respect to its children (min or max heap). |
-| **Trie** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A tree-like data structure used to store strings, with nodes representing characters. |
-| **Graph** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of nodes (vertices) and edges (connections between nodes). |
+| **Trie** | [&check;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A tree-like data structure used to store strings, with nodes representing characters. |
+| **Graph** | [&check;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A collection of nodes (vertices) and edges (connections between nodes). |
 | **Tree** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A hierarchical structure with nodes connected by edges, with a single root. |
 | **Disjoint Set <br/>(Union-Find)** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A data structure to manage a partition of a set into disjoint subsets.         |
 | **Bloom Filter** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A space-efficient probabilistic data structure used to test whether an element is a member of a set. || **Hash Table** | [&cross;] Java <br/>[&cross;] Scala <br/>[&cross;] Python <br/>[&cross;] C# | A data structure that implements an associative array, where each key maps to a value using a hash function. |

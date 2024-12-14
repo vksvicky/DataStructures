@@ -1,0 +1,31 @@
+Feature: Graph functionality
+
+  Scenario: Add a node to the graph
+    Given an empty graph
+    When I add a node "A"
+    Then the graph should contain the node "A"
+
+  Scenario: Add an edge to an undirected graph
+    Given an undirected graph with nodes "A" and "B"
+    When I add an edge between "A" and "B"
+    Then the graph should contain the edge "A" -> "B" and "B" -> "A"
+
+  Scenario: Add an edge to a directed graph
+    Given a directed graph with nodes "A" and "B"
+    When I add an edge from "A" to "B"
+    Then the graph should contain the edge "A" -> "B" but not "B" -> "A"
+
+  Scenario: Add an edge with a non-existent node
+    Given an undirected graph with a node "A"
+    When I add an edge between "A" and a non-existent node "C"
+    Then an exception should be thrown with the message "Both nodes must exist in the graph"
+
+  Scenario: Add a null node to the graph
+    Given an empty graph
+    When I add a null node
+    Then an exception should be thrown with the message "Node cannot be null"
+
+  Scenario: Add a null edge to the graph
+    Given an undirected graph with a node "A"
+    When I add an edge from "A" to null
+    Then an exception should be thrown with the message "Nodes in an edge cannot be null"
