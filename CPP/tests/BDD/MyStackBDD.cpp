@@ -3,10 +3,10 @@
 //
 
 #include "../../header/MyStack.h"
-#include <gtest/gtest.h>
+#include <catch2/catch_test_macros.hpp>
 
 // Scenario: Pushing and popping elements
-TEST(MyStackBDD, PushPopScenario) {
+TEST_CASE("Pushing and popping elements", "[MyStackBDD]") {
     // Given an empty stack
     MyStack stack;
 
@@ -15,23 +15,23 @@ TEST(MyStackBDD, PushPopScenario) {
     stack.push(2);
 
     // Then the size should increase
-    EXPECT_EQ(stack.size(), 2);
+    REQUIRE(stack.size() == 2);
 
     // And the top element should be 2
-    EXPECT_EQ(stack.peek(), 2);
+    REQUIRE(stack.peek() == 2);
 
     // When the top element is popped
     int popped = stack.pop();
 
     // Then the popped element should be 2
-    EXPECT_EQ(popped, 2);
+    REQUIRE(popped == 2);
 
     // And the size should decrease
-    EXPECT_EQ(stack.size(), 1);
+    REQUIRE(stack.size() == 1);
 }
 
 // Scenario: Handling stack overflow and underflow
-TEST(MyStackBDD, OverflowUnderflowScenario) {
+TEST_CASE("Handling stack overflow and underflow", "[MyStackBDD]") {
     // Given a stack with maximum capacity
     MyStack stack;
     for (size_t i = 0; i < 100; ++i) {
@@ -40,7 +40,7 @@ TEST(MyStackBDD, OverflowUnderflowScenario) {
 
     // When pushing beyond capacity
     // Then an overflow error should be thrown
-    EXPECT_THROW(stack.push(101), std::overflow_error);
+    REQUIRE_THROWS_AS(stack.push(101), std::overflow_error);
 
     // When popping all elements
     for (size_t i = 0; i < 100; ++i) {
@@ -48,8 +48,8 @@ TEST(MyStackBDD, OverflowUnderflowScenario) {
     }
 
     // Then the stack should be empty
-    EXPECT_TRUE(stack.empty());
+    REQUIRE(stack.empty());
 
     // And an underflow error should be thrown if popping again
-    EXPECT_THROW(stack.pop(), std::underflow_error);
+    REQUIRE_THROWS_AS(stack.pop(), std::underflow_error);
 }

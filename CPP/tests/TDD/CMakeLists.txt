@@ -1,5 +1,4 @@
 # Find Google Test
-enable_testing()
 find_package(GTest REQUIRED)
 include(GoogleTest)
 include_directories(${GTEST_INCLUDE_DIRS})

@@ -14,3 +14,6 @@ rm -rf build && mkdir build && cd build && cmake .. && cmake --build .
 
 Cmd to run only tests - TDD
 cmake --build . --target run_all_tests
+
+Cmd to run only tests - BDD
+cmake --build . run_all_bdd_tests
