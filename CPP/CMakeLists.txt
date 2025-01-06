@@ -1,21 +1,27 @@
 cmake_minimum_required(VERSION 3.30)
-project(MyArrayProject)
+project(MyDataStructure)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(include)
+# Include header files directory
+include_directories(.)
 
+# Create individual libraries for each data structure
 add_library(MyArray STATIC src/MyArray.cpp)
+add_library(MyStack STATIC src/MyStack.cpp)
+add_library(MyQueue STATIC src/MyQueue.cpp)
 
-enable_testing()
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})
+# Add source files
+add_library(MyDataStructureLib
+    src/MyArray.cpp
+    src/MyStack.cpp
+    src/MyQueue.cpp
+)
 
-add_executable(MyArrayTDD tests/TDD/MyArrayTDD.cpp)
-target_link_libraries(MyArrayTDD MyArray GTest::GTest GTest::Main)
+# Include tests
+add_subdirectory(tests/TDD)
 
-add_executable(MyArrayBDD tests/BDD/MyArrayBDD.cpp)
-target_link_libraries(MyArrayBDD MyArray GTest::GTest GTest::Main)
-
-add_executable(MyArrayMain main/main.cpp)
-target_link_libraries(MyArrayMain MyArray)
+# Add executable for main program (optional)
+add_executable(MyDataStructure main/main.cpp)
+target_link_libraries(MyDataStructure MyDataStructureLib)

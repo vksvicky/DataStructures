@@ -358,3 +358,6 @@ Temporary Items
 # add your custom gitignore here:
 !.gitignore
 !.gitsubmodules
+.idea/
+build/
+DataStructures.und
