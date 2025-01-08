@@ -1,0 +1,17 @@
+2025.01.08 15:40:37 INFO  Started: Metals version 1.4.2 in folders '/Users/vivek/Development/DataStructures' for client Visual Studio Code 1.96.2.
+2025.01.08 15:40:46 INFO  no build target found for /Users/vivek/Development/DataStructures/Java/src/test/java/org/revian/BigO/MyTrieBigOTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.08 15:40:47 INFO  no build target found for /Users/vivek/Development/DataStructures/Java/src/test/java/org/revian/BigO/MyTrieBigOTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+Jan 08, 2025 3:40:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jan 08, 2025 3:40:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2025.01.08 15:40:47 INFO  no build target found for /Users/vivek/Development/DataStructures/Java/src/test/java/org/revian/BigO/MyTrieBigOTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+Jan 08, 2025 3:40:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2025.01.08 15:41:09 INFO  no build target found for /Users/vivek/Development/DataStructures/Java/src/test/java/org/revian/BigO/MyTrieBigOTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.08 15:41:09 INFO  no build target found for /Users/vivek/Development/DataStructures/Java/src/test/java/org/revian/BigO/MyTrieBigOTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+Jan 08, 2025 3:41:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/vivek/Development/DataStructures/.metals/.reports/metals-full/2025-01-08/r_compiler-error_15-41-09-645.md
+2025.01.08 18:20:37 INFO  no build target found for /Users/vivek/Development/DataStructures/Java/src/test/java/org/revian/BigO/MyTrieBigOTest.java. Using presentation compiler with project's scala-library version: 3.3.4
+Jan 08, 2025 6:20:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/vivek/Development/DataStructures/.metals/.reports/metals-full/2025-01-08/r_compiler-error_18-20-38-161.md

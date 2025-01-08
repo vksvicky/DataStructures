@@ -1,0 +1,8 @@
+[package]
+name = "rust_data_structures"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rstest = "0.24.0"
+rspec = "1.0"
