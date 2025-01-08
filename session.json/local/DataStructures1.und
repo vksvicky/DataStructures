@@ -1,0 +1,12 @@
+{
+    "Session": "default",
+    "Sessions": {
+        "default": {
+            "SessionData": {
+                "GraphicFilterSettings": {
+                    "Enabled": false
+                }
+            }
+        }
+    }
+}

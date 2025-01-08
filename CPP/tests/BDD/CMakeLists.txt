@@ -10,6 +10,11 @@ set(BDD_FILES
     MyArrayBDD.cpp
     MyStackBDD.cpp
     MyQueueBDD.cpp
+    MyLinkedListBDD.cpp
+    MyDequeBDD.cpp
+    MyHashMapBDD.cpp
+    MySetBDD.cpp
+    MyPriorityQueueBDD.cpp
 )
 
 foreach(BDD_FILE ${BDD_FILES})

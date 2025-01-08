@@ -8,6 +8,11 @@ set(TDD_FILES
     MyArrayTDD.cpp
     MyStackTDD.cpp
     MyQueueTDD.cpp
+    MyLinkedListTDD.cpp
+    MyDequeTDD.cpp
+    MyHashMapTDD.cpp
+    MySetTDD.cpp
+    MyPriorityQueueTDD.cpp
 )
 
 foreach(TDD_FILE ${TDD_FILES})

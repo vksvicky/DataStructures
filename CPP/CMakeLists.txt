@@ -19,6 +19,11 @@ add_library(MyDataStructureLib
     src/MyArray.cpp
     src/MyStack.cpp
     src/MyQueue.cpp
+    src/MyLinkedList.cpp
+    src/MyDeque.cpp
+    src/MyHashMap.cpp
+    src/MySet.cpp
+    src/MyPriorityQueue.cpp
 )
 
 enable_testing()
